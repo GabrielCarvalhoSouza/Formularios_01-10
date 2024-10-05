@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style5.css" />
+  </head>
+  <body>
+    <form action="">
+      <input type="text" name="Nome" placeholder="Nome" required /> <br />
+      <input type="email" name="Email" placeholder="Email" required /> <br />
+      <input
+        type="number"
+        name="Idade"
+        placeholder="Idade"
+        min="18"
+        max="100"
+        required
+      />
+      <br />
+      <label for="Sexo">Selecione seu gênero:</label> <br />
+      <input name="Sexo" type="radio" value="Masculino" />Masculino <br />
+      <input name="Sexo" type="radio" value="Feminino" />Feminino
+      <br />
+      <input name="Sexo" type="radio" value="Outro" />Outro
+      <br />
+      <textarea
+        name="Comentario"
+        placeholder="Comentarios"
+        minlength="20"
+        required
+      ></textarea>
+      <input name="Enviar" type="submit" />
+    </form>
+  </body>
+</html>
