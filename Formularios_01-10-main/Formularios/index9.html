@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style9.css" />
+  </head>
+  <body>
+    <form action="">
+      <input
+        type="text"
+        id="search"
+        name="query"
+        autocomplete="on"
+        list="languages"
+        placeholder="Digite para ver sugestões..."
+        required
+      />
+      <datalist id="languages">
+        <option value="HTML"></option>
+        <option value="CSS"></option>
+        <option value="JavaScript"></option>
+        <option value="PHP"></option>
+      </datalist>
+
+      <input name="Enviar" type="submit" />
+      <input name="Limpar" type="reset" value="Limpar" />
+    </form>
+  </body>
+</html>
